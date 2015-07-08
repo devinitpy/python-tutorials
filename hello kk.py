@@ -12,4 +12,3 @@ age_difference=fathers_age-mothers_age
 print("the combined age of your parents is %s ") % combined_age
 print("the age difference of your parents %s") % age_difference
 
-
