@@ -1,0 +1,16 @@
+math 
+	marks:50
+	grade:D
+
+Science
+	marks: 90
+	grade: A
+
+English
+	marks:70
+	grade:C
+
+total grade
+	D,A,C
+	
+
