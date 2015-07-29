@@ -11,12 +11,22 @@
 # Determine total score.
 
 name=raw_input("my name is: ")
-def file_open("C:/Users/ProBook/Documents/python-tutorials/grade.txt","r"):
+#file location
+file_location="C:/Users/ProBook/Documents/python-tutorials/grade.txt";
+
+def file_open(location):
+	#you were missing a function that opens the file
+	file = open(location,"r")
 	data=file.readlines()
 	print(data)
 	return data
+#if you want to store values in a list
+#first create an empty list variable and the append /add values to it
+score_list = []
 for i in range(0,4)
 	 score = input("What is "+str(i)+"th mark?: ")
+	 scoere_list.append(score)
+	 
 def compute_grade(marks list):
 	if marks=>80:
 		grade="A"
